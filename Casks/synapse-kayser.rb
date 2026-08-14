@@ -1,14 +1,14 @@
 cask "synapse-kayser" do
-  version "7.1.0"
+  version "7.2.0"
 
   on_intel do
     url "https://github.com/BlipkGoDev/synapse-kayser-releases/releases/download/v#{version}/Synapse.Kayser-x64.dmg"
-    sha256 "1a93500e0b49eac9a7bfa3dad2a4049a1277af8ab472d10b61b6057433b6b4e3"
+    sha256 "d454286d0edc46c6407a76034336ee256b86edf5d5e269edd78a319d2aebd444"
   end
 
   on_arm do
     url "https://github.com/BlipkGoDev/synapse-kayser-releases/releases/download/v#{version}/Synapse.Kayser-arm64.dmg"
-    sha256 "0f52c4743747b1691c1a27d2bf72d7f729ab303429c17d7dbee4f5f483911505"
+    sha256 "9353b8454ec94ae5632e4324f1090cb0d51d5deaf68a66e6294f1364cffc6cc7"
   end
 
   name "Synapse Kayser"
